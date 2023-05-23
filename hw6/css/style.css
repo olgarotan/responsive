@@ -23,9 +23,8 @@ header{
 
 header ul{
 	display: flex;
-	width: 462px;
 	justify-content: space-between;
-
+	gap: 46px;
 }
 
 header li{
@@ -38,7 +37,7 @@ header li{
 	
 }
 
-.logo{
+.logo a{
 	color: #0F044C;
 	font-family: 'M PLUS 1p';
 	font-weight: 900;
@@ -66,7 +65,7 @@ header ul a{
 	letter-spacing: 2px;
 }
 
-.number::before{
+.text-number::before{
 	content: url(../images/phone.svg);
 	width: 18px;
 	height: 28.8px;
@@ -78,16 +77,17 @@ header ul a{
 	background-image: url(../images/humаn.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 378px;
 	padding-top: 126px;
 	padding-bottom: 115px;
 }
 
-main{
+.main-container{
+	padding-top: 72px;
 	padding-bottom: 58px;
 }
 
 main h1{
+	margin-bottom: 22px;
 	font-family: 'M plus 1p';
 	font-weight: 500;
 	font-size: 54px;
@@ -104,8 +104,8 @@ main p.images-text{
 	color: #F4F4ED;
 }
 
-main h3{
-	margin: 72px 0 12px;
+main h2{
+	margin-bottom: 12px;
 	font-family: 'M plus 1p';
 	font-weight: 800;
 	font-size: 12.6px;
@@ -117,7 +117,7 @@ main h3{
 
 .main-text{
 	margin-bottom: 60px;
-	width: 870px;
+	max-width: 75.916%;
 	height: 120px;
 	font-family: 'M plus 1p';
 	font-weight: 500;
@@ -138,7 +138,7 @@ main h3{
 	width: 362px;
 }
 
-main h2{
+main h3{
 	margin-top: 33px;
 	padding-bottom: 13px;
 	color: #30233D;
@@ -163,7 +163,7 @@ footer{
 }
 
 .footer-text{
-	font-family: 'Mplus 1p';
+	font-family: 'M plus 1p';
 	font-weight: 400;
 	font-size: 11.7px;
 	line-height: 19px;
